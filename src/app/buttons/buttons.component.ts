@@ -8,7 +8,6 @@ import { Component, EventEmitter, Output, Input } from '@angular/core';
 export class ButtonsComponent {
   @Output() newCountEvent = new EventEmitter<number>();
   @Output() newIncreaseEvent = new EventEmitter<number>();
-  @Input() currentCount = 0;
 
   addOne() {
     this.newCountEvent.emit(1);

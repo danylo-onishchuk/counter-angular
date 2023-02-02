@@ -16,6 +16,4 @@ export class HomepageComponent {
       id: 1,
     }
   ]
-
-  today = null;
 }
