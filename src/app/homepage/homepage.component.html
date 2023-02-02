@@ -1,0 +1,12 @@
+<p>It is home</p>
+
+<ul *ngFor="let hero of heroes">
+  <li>{{hero.name}}</li>
+</ul>
+
+
+
+<div *ngIf="!!heroes[1]">
+  <p>We have 3 heroes</p>
+</div>
+
